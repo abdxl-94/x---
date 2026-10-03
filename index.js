@@ -89,7 +89,7 @@ async function connectToWA() {
 
       const up = `xᴇɴᴏ-ᴍɪɴɪ connected ✅\n\nPREFIX: ${prefix}`;
       await danuwa.sendMessage(ownerNumber[0] + "@s.whatsapp.net", {
-        image: { url: `https://github.com/DANUWA-MD/DANUWA-MD/blob/main/images/DANUWA-MD.png?raw=true` },
+        image: { url: `https://github.com/abdxl-94/x---/blob/main/images/IMG-20261003-WA9684.jpg` },
         caption: up
       });
 
