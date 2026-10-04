@@ -146,7 +146,7 @@ async function connectToWA() {
     if (isCmd) {
       const cmd = commands.find((c) => c.pattern === commandName || (c.alias && c.alias.includes(commandName)));
       if (cmd) {
-        if (cmd.react) danuwa.sendMessage(from, { react: { text: cmd.react, key: mek.key } });
+        if (cmd.react) xeno.sendMessage(from, { react: { text: cmd.react, key: mek.key } });
         try {
           cmd.function(xeno, mek, m, {
             from, quoted: mek, body, isCmd, command: commandName, args, q,
