@@ -179,7 +179,7 @@ async function connectToWA() {
 ensureSessionFile();
 
 app.get("/", (req, res) => {
-  res.send("Hey, xᴇɴᴏ-ᴍɪɴɪ started✅");
+  res.send("Hey, xᴇɴᴏ-ᴍɪɴɪ started ✅");
 });
 
 app.listen(port, () => console.log(`Server listening on http://localhost:${port}`));
