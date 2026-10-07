@@ -9,7 +9,7 @@ const {
 } = require('@whiskeysockets/baileys');
 
 const fs = require('fs');
-const P = require('pino');
+const Pino = require('pino');
 const express = require('express');
 const axios = require('axios');
 const path = require('path');
